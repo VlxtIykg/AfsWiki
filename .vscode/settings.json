@@ -1,0 +1,6 @@
+{
+	"python.analysis.extraPaths": [
+		"./backend/custom_bert/utils",
+		"./backend/custom_bert/models"
+	]
+}

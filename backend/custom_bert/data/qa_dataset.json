@@ -1,0 +1,97 @@
+{
+  "intents": [
+    {
+      "tag": "world_amount",
+      "patterns": [
+        "How many worlds are there?",
+        "What is the last world?"
+      ],
+      "responses": [
+        "66 Worlds!",
+        ""
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "last_world",
+      "patterns": [
+        "How do I get to last world?",
+        "What are some methods to get to last world?",
+        "What are some ways to get to last world?"
+      ],
+      "responses": [
+        "There is gate and shiny methods!<br>You can use gates in time chamber to get lots of yen!<br>You can use shiny potion to roll and when you sell your units, they will net you more than you spend!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "clone",
+      "patterns": [
+        "How long does it take to clone?",
+        "How long will divine take to clone?",
+        "How long will it take to clone?"
+      ],
+      "responses": [
+        "192 hours!",
+        "Any time!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "unclonable",
+      "patterns": [
+        "How long does demonic take to clone?",
+        "How long will divine take to clone?",
+        "How long will it take to clone?"
+      ],
+      "responses": [
+        "192 hours!",
+        "Any time!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "obtainingdemonicfruits",
+      "patterns": [
+        "How do I get demonic fruits?",
+        "How do I obtain demonic fruits?"
+      ],
+      "responses": [
+        "You can get demonic fruits from insane dungeons and raids!"
+      ]
+    },
+    {
+      "tag": "obtainingheavenlyfruits",
+      "patterns": [
+        "How do I get demonic fruits?",
+        "How do I obtain demonic fruits?"
+      ],
+      "responses": [
+        "You can get demonic fruits from insane dungeons and raids!"
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [
+        ""
+      ],
+      "responses": [
+        "Sorry, I don't think I know that yet!",
+        "Please give me more info",
+        "Yea no I still don't get it..",
+        ":( Kami is not here to help me with that yet.."
+      ],
+      "context": [
+        ""
+      ]
+    }
+  ]
+}
